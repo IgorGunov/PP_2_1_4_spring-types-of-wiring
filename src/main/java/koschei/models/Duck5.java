@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Duck5 {
 
     @Autowired
-    Egg6 egg6;
+    private Egg6 egg6;
 
     @Override
     public String toString() {
